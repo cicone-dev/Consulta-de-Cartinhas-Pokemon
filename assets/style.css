@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#cabecalho{
+    float: left;
+}
+#image{
+   margin: 8%;
+   margin-left: 30px;
+}
+
+body{
+    background-color: gray;
+    color: white;
+    font-size:20px;
+}
+
+#inpuTtext{
+    font-size:19px;
+    width: 380px;
+    height: 35px;
+   
+} 
+#inpuTtext::placeholder{
+    padding: 100px;
+    color: #351038;
+   }
+#respostaAPI{
+    width: 80%;
+    height: auto;
+    background: #000;
+}
+
+#respostaAPI .carta{
+    width: auto;
+    margin: 1%;
+    float: left;
+}
+
+#respostaAPI .carta img{
+    width: auto;
+    height: auto;
+}
+
+#pesquisa{
+    float: left;
+    margin-top: 65px;
+    margin-left: 2%;
+    display: flex;
+    font-size: 35px; 
+}
+
+button{
+    width: 120px;
+    height: 35px;
+    border-radius: 70px;
+}
+
